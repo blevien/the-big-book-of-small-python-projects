@@ -11,10 +11,10 @@ def main():
     print("+---------------------------+")
     print("Our website needs to trick people into looking at ads!\n")
 
-    # TODO: Call each function, followed by a deadline
-    print(generateJobAutomatedHeadline())
-    print(generateDeadline())
-
+    # TODO: Call each function and print each headline that is returned.
+    
+    #TODO: Print a deadline in the middle print statement
+    print()
     print()
     print()
 
