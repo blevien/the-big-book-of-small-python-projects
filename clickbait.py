@@ -22,13 +22,6 @@ def main():
 # Each of these functions returns a different type of headline:
 
 
-def generateDeadline():
-    website = random.choice(SITES)
-    when = random.choice(WHEN).upper()
-
-    return "Post this to our {} {} or you're fired!".format(website, when)
-
-
 def generateAreMillenialsKillingHeadline():
     noun = random.choice(NOUNS)
 
@@ -93,6 +86,12 @@ def generateJobAutomatedHeadline():
         return f"This {state} {noun} Didn't Think Robots Would Take {pronoun1} Job. {pronoun2} Were Wrong."
     else:
         return f"This {state} {noun} Didn't Think Robots Would Take {pronoun1} Job. {pronoun2} Was Wrong."
+
+def generateDeadline():
+    website = random.choice(SITES)
+    when = random.choice(WHEN).upper()
+
+    return "Post this to our {} {} or you're fired!".format(website, when)
 
 
 # Set up the constants:
